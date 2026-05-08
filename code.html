@@ -2,71 +2,77 @@
 <html>
 <head>
   <title>Quiz</title>
- 
-   
+
+  <script src="game.js"></script>
+
+ </head>
+
+
+<body style="font-size: 20px;">
+
+    <h1> welcome, new kid! please select your friend</h1>
+    <h3>warming with your chose, you can regret</h3>
+
+
+ <style>
   
-      
-        
-        <h3>welcome to the chuck´s quiz about digital segurity yeppi!</h3>
-  <style>
-  
-  body {
+  body { 
       background-color: rgb(0, 0, 0);
       overflow-x: hidden;
-      display: flex;
-      flex-direction: column;
-      color: aliceblue;
+      /* display: flex; 
+      /* flex-direction: column; */
+      font-style:oblique;
+      color: rgb(255, 255, 255);
+      text-align: center;
   }
 
+  
   img {
   position: relative;
-  top: 50%;
-  left: 65%;
+  top: 180px;
+  left: 3%;
+
+  width: 300px;
+  height: 300px;
+  
 }
 
-button { 
+.galeria {
 
-position: relative;
-top: -240px;
-left: 100px;
-
+  display: flex;
+  gap: 250px;
 }
-
-h1 {
-
-  position: relative;
-  top: -250px;
-  left: 100px;
-}
-
-h3{
-
-  position: relative;
-  top: 100px;
-  left: 240px;
-}
-
 
 </style>
 
+<div class="galeria">
 
-</head>
+  <img onmouseover="mostrarh('shinji')"
+  
+  src="https://i.pinimg.com/736x/97/30/b9/9730b9d0383caa3b35610e311ab55880.jpg">
+
+  <img onmouseover="mostrarh('asuka')"
+  
+  src="https://i.pinimg.com/736x/c9/d6/ca/c9d6ca7486a662216e858e031454f083.jpg">
+
+  <img onmouseover=" mostrarh('rei')" 
+  
+  src="https://i.pinimg.com/736x/c4/20/9d/c4209d5ff6631500410447ec3a4d3f69.jpg">
+
+</div>
 
 
-<body>
-
- 
-  <img src="https://media1.tenor.com/m/VJMrY-CaGg0AAAAC/toby-fox-annoying-dog.gif" width="350" height="350" alt="chuck">
-
+  <!-- <img src="https://media1.tenor.com/m/VJMrY-CaGg0AAAAC/toby-fox-annoying-dog.gif" width="350" height="350" alt="chuck"> -->
+<!-- 
   <h1 id="pergunta"></h1>
 
   <div id="respostas"></div>
 
 <button onclick="proximaPergunta()">Próxima</button>
 
-<p id="resultado"></p>
+<p id="resultado"></p> -->
 
-<script src="game.js"></script>
+<p id="historia"></p>
 
 
 </body>
