@@ -1,6 +1,5 @@
 
 // "}" is a block code, there is, beginning and end
-<<<<<<< Updated upstream
 // const quiz = [
 //   {
 //     pergunta: "você recebeu um email suspeito, o que você faria?",
@@ -11,32 +10,12 @@
 //     pergunta:"você acaba de entrar em um site, mas derrepente começa \n a aparecer anuncios sem parar, o quê fazer?",
 //     opcoes: ["chorar", "sair do site e não aceitar nenhum cookie", "clicar em todos os anuncios e comprar tudo kkkk"],
 //     correta: 1
-=======
-
-const quiz = [
-  {
-    pergunta: "você recebeu um email suspeito, o que você faria?",
-    opcoes: ["nao sei", "responderia", "clasificaria como spam","ignorava", "mandaria no grupo do zap", "denunciaria"],
-    correta: 2
-  },
-  {
-    pergunta:"você acaba de entrar em um site, mas derrepente começa \n a aparecer anuncios sem parar, o quê fazer?",
-    opcoes: ["chorar", "sair do site e não aceitar nenhum cookie", "clicar em todos os anuncios e comprar tudo kkkk"],
-    correta: 1
->>>>>>> Stashed changes
     
 //   }
 // ];
 
-<<<<<<< Updated upstream
 // let indiceAtual = 0;
 // let pontuacao = 0;
-=======
-// esse aqui é o tutorial sdo spray né 
-
-let indiceAtual = 0;
-let pontuacao = 0;
->>>>>>> Stashed changes
 
 // //como mostrar pergunta/mostrar text visivel em html
 // function mostrarPergunta() {
@@ -99,25 +78,22 @@ else {
 }
 }
 
-<<<<<<< Updated upstream
-// document.body.style.textAlign = "left";
-=======
-function verificarResposta(index) {
-  if (index === quiz[indiceAtual].correta) {
-    pontuacao++;
-  }
-}
+// function verificarResposta(index) {
+//   if (index === quiz[indiceAtual].correta) {
+//     pontuacao++;
+//   }
+// }
 
-function proximaPergunta() {
-  indiceAtual++;
+// function proximaPergunta() {
+//   indiceAtual++;
 
-  if (indiceAtual < quiz.length) {
-    mostrarPergunta();
-  } else {
-    document.getElementById("resultado").innerText =
-      "Pontuação: " + pontuacao;
-  }
-}
+//   if (indiceAtual < quiz.length) {
+//     mostrarPergunta();
+//   } else {
+//     document.getElementById("resultado").innerText =
+//       "Pontuação: " + pontuacao;
+//   }
+// }
 
 
 //document.body.style.textAlign = "right";
@@ -125,4 +101,3 @@ function proximaPergunta() {
 
 
 mostrarPergunta();
->>>>>>> Stashed changes
