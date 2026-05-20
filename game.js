@@ -10,7 +10,7 @@
 //     pergunta:"você acaba de entrar em um site, mas derrepente começa \n a aparecer anuncios sem parar, o quê fazer?",
 //     opcoes: ["chorar", "sair do site e não aceitar nenhum cookie", "clicar em todos os anuncios e comprar tudo kkkk"],
 //     correta: 1
-    
+
 //   }
 // ];
 
@@ -54,29 +54,7 @@
 
 // mostrarPergunta();
 
-let shinji = `aqui voce ira responder algumas perguntas sobre segurança digital` 
-let asuka = `aqui vc vera a tragedia que é a vida da asuka kkakakakakka`
-let rei = `triste mae do shinji`
 
-function mostrarh(personagem) {
-
-let historia = document.getElementById("historia");
-{
-
-if (personagem === 'shinji') {
-
-historia.innerHTML = shinji
-}
-  
-else if (personagem === 'rei') {
-
- historia.innerHTML = rei
-}
-else {
-  historia.innerHTML = asuka
-}
-}
-}
 
 // function verificarResposta(index) {
 //   if (index === quiz[indiceAtual].correta) {
